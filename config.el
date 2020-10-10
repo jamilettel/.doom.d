@@ -77,3 +77,12 @@
     (global-set-key (kbd "C-<right>") 'forward-word)
     (global-set-key (kbd "C-<left>") 'backward-word)
     ))
+
+(load! "epitech/std_comment.el")
+
+(require 'vterm)
+(define-key vterm-mode-map (kbd "<C-backspace>")
+    (lambda () (interactive) (vterm-send-key (kbd "C-w"))))
+
+(add-hook! 'vterm-mode-hook (local-set-key (kbd "C-<left>") 'vterm-send-M-b))
+(add-hook! 'vterm-mode-hook (local-set-key (kbd "C-<right>") 'vterm-send-M-f))
