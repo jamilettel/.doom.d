@@ -86,3 +86,15 @@
 
 (add-hook! 'vterm-mode-hook (local-set-key (kbd "C-<left>") 'vterm-send-M-b))
 (add-hook! 'vterm-mode-hook (local-set-key (kbd "C-<right>") 'vterm-send-M-f))
+
+(defun split-and-follow-horizontally ()
+  (interactive)
+  (split-window-below)
+  (other-window 1))
+(global-set-key (kbd "C-x 2") 'split-and-follow-horizontally)
+
+(defun split-and-follow-vertically ()
+  (interactive)
+  (split-window-right)
+  (other-window 1))
+(global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
