@@ -50,3 +50,4 @@
 ;(unpin! t)
 
 (package! emojify)
+(package! whole-line-or-region)

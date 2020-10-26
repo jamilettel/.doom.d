@@ -6,8 +6,8 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
-(setq user-full-name "John Doe"
-      user-mail-address "john@doe.com")
+(setq user-full-name "Jamil Ettel"
+      user-mail-address "jamil.ettel@epitech.eu")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
@@ -54,6 +54,7 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+(setq doom-theme 'doom-challenger-deep)
 (setq doom-themes-treemacs-theme "doom-colors")
 
 (global-set-key (kbd "<f8>") 'treemacs)
@@ -98,3 +99,8 @@
   (split-window-right)
   (other-window 1))
 (global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
+
+(global-set-key (kbd "C-x C-g") 'goto-line)
+(whole-line-or-region-global-mode t)
+
+(setq doom-font (font-spec :family "Source Code Pro" :size 14))
