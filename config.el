@@ -25,7 +25,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-one)
+(setq doom-theme 'doom-challenger-deep)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
@@ -54,10 +54,9 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(setq doom-theme 'doom-challenger-deep)
 (setq doom-themes-treemacs-theme "doom-colors")
 
-(global-set-key (kbd "<f8>") 'treemacs)
+(global-set-key (kbd "<f8>") 'treemacs-select-window)
 (global-set-key (kbd "C-<tab>") 'other-window)
 (global-set-key (kbd "C-.") 'comment-line)
 
@@ -81,12 +80,12 @@
 
 (load! "epitech/std_comment.el")
 
-(require 'vterm)
-(define-key vterm-mode-map (kbd "<C-backspace>")
-    (lambda () (interactive) (vterm-send-key (kbd "C-w"))))
+;; (require 'vterm)
+;; (define-key vterm-mode-map (kbd "<C-backspace>")
+;;     (lambda () (interactive) (vterm-send-key (kbd "C-w"))))
 
-(add-hook! 'vterm-mode-hook (local-set-key (kbd "C-<left>") 'vterm-send-M-b))
-(add-hook! 'vterm-mode-hook (local-set-key (kbd "C-<right>") 'vterm-send-M-f))
+;; (add-hook! 'vterm-mode-hook (local-set-key (kbd "C-<left>") 'vterm-send-M-b))
+;; (add-hook! 'vterm-mode-hook (local-set-key (kbd "C-<right>") 'vterm-send-M-f))
 
 (defun split-and-follow-horizontally ()
   (interactive)
@@ -100,7 +99,13 @@
   (other-window 1))
 (global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
 
+(global-set-key (kbd "C-c <left>") 'winner-undo)
+(global-set-key (kbd "C-c <right>") 'winner-redo)
 (global-set-key (kbd "C-x C-g") 'goto-line)
 (whole-line-or-region-global-mode t)
 
 (setq doom-font (font-spec :family "Source Code Pro" :size 14))
+
+(global-set-key (kbd "M-RET") 'lsp-execute-code-action)
+(global-set-key (kbd "C-c d") 'lsp-ui-doc-show)
+(blink-cursor-mode 1)
