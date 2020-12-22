@@ -57,9 +57,8 @@
 (setq doom-theme 'doom-challenger-deep)
 (setq doom-themes-treemacs-theme "doom-colors")
 
-(global-set-key (kbd "<f8>") 'treemacs)
+(global-set-key (kbd "<f8>") 'treemacs-select-window)
 (global-set-key (kbd "C-<tab>") 'other-window)
-(global-set-key (kbd "C-.") 'comment-line)
 
 (defun prev-window()
   "Switches to previous window."
@@ -100,7 +99,20 @@
   (other-window 1))
 (global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
 
+(global-set-key (kbd "C-c <right>") 'winner-redo)
+(global-set-key (kbd "C-c <left>") 'winner-undo)
+(global-set-key (kbd "C-x y") 'company-yasnippet)
+
 (global-set-key (kbd "C-x C-g") 'goto-line)
 (whole-line-or-region-global-mode t)
 
-(setq doom-font (font-spec :family "Source Code Pro" :size 14))
+(setq doom-font (font-spec :family "Source Code Pro" :size 12))
+
+(doom/set-indent-width 4)
+(global-set-key (kbd "M-RET") 'lsp-execute-code-action)
+
+(setq company-idle-delay 0.1)
+
+(blink-cursor-mode 1)
+
+(global-set-key (kbd "C-.") 'comment-line)
