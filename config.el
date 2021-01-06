@@ -116,3 +116,9 @@
 (blink-cursor-mode 1)
 
 (global-set-key (kbd "C-.") 'comment-line)
+
+(global-set-key (kbd "M-{") 'mc/mark-next-like-this)
+(global-set-key (kbd "M-}") 'mc/unmark-next-like-this)
+(setq lsp-file-watch-threshold 1000000)
+
+(setq ws-butler-keep-whitespace-before-point 1)
