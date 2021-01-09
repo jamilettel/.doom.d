@@ -121,4 +121,4 @@
 (global-set-key (kbd "M-}") 'mc/unmark-next-like-this)
 (setq lsp-file-watch-threshold 1000000)
 
-(setq ws-butler-keep-whitespace-before-point 1)
+(setq ws-butler-keep-whitespace-before-point t)
