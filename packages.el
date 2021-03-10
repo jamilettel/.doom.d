@@ -51,3 +51,5 @@
 
 (package! emojify)
 (package! whole-line-or-region)
+;; (package! lsp-pyright)
+(package! lsp-jedi)

@@ -25,7 +25,8 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-one)
+(setq doom-theme 'doom-sourcerer)
+(setq doom-sourcerer-brighter-modeline 1)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
@@ -54,7 +55,6 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(setq doom-theme 'doom-challenger-deep)
 (setq doom-themes-treemacs-theme "doom-colors")
 
 (global-set-key (kbd "<f8>") 'treemacs-select-window)
@@ -102,6 +102,7 @@
 (global-set-key (kbd "C-c <right>") 'winner-redo)
 (global-set-key (kbd "C-c <left>") 'winner-undo)
 (global-set-key (kbd "C-x y") 'company-yasnippet)
+(global-set-key (kbd "C-;") 'company-capf)
 
 (global-set-key (kbd "C-x C-g") 'goto-line)
 (whole-line-or-region-global-mode t)
@@ -111,14 +112,30 @@
 (doom/set-indent-width 4)
 (global-set-key (kbd "M-RET") 'lsp-execute-code-action)
 
-(setq company-idle-delay 0.1)
+(setq company-idle-delay 0.2)
 
 (blink-cursor-mode 1)
 
 (global-set-key (kbd "C-.") 'comment-line)
+(global-set-key (kbd "C-c d") 'lsp-ui-doc-glance)
 
 (global-set-key (kbd "M-{") 'mc/mark-next-like-this)
 (global-set-key (kbd "M-}") 'mc/unmark-next-like-this)
 (setq lsp-file-watch-threshold 1000000)
 
-(setq ws-butler-keep-whitespace-before-point t)
+;; (setq ws-butler-keep-whitespace-before-point t)
+
+;; (use-package lsp-jedi
+;;   :ensure t
+;;   :config
+;;   (with-eval-after-load "lsp-mode"
+;;     (add-to-list 'lsp-disabled-clients 'pyls)
+;;     (add-to-list 'lsp-enabled-clients 'jedi)))
+
+;; (setq lsp-auto-configure t)
+(setq mc/always-run-for-all 1)
+(setq lsp-ui-doc-max-height 100)
+(setq lsp-ui-doc-max-width 1000)
+(setq lsp-ui-doc-use-childframe nil)
+(treemacs-follow-mode 1)
+(setq undo-fu-allow-undo-in-region 1)
