@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Unity ScriptableObject
+# key: ScriptableObject
+# --
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "${1:`(file-name-base (buffer-file-name))`}", menuName = "${2:${TM_FILEPATH/.*\\(.*)\\Assets\\.*/${1}/}/${TM_FILENAME_BASE}}", order = ${3:0})]
+public class ${TM_FILENAME_BASE} : ScriptableObject {
+    $0
+}

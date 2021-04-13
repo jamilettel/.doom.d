@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnTriggerExit2D
+# key: OnTriggerExit2D(Collider2D)
+# --
+private void OnTriggerExit2D(Collider2D other) {
+    $0
+}

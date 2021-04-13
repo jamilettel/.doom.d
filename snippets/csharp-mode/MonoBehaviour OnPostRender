@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnPostRender
+# key: OnPostRender()
+# --
+private void OnPostRender() {
+    $0
+}

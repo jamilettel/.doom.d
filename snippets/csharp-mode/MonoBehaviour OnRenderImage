@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnRenderImage
+# key: OnRenderImage(RenderTexture, RenderTexture)
+# --
+private void OnRenderImage(RenderTexture src, RenderTexture dest) {
+    $0
+}

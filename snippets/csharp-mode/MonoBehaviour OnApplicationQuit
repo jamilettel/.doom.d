@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnApplicationQuit
+# key: OnApplicationQuit()
+# --
+private void OnApplicationQuit() {
+    $0
+}

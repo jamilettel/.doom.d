@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnAnimatorIK
+# key: OnAnimatorIK(int)
+# --
+private void OnAnimatorIK(int layerIndex) {
+    $0
+}

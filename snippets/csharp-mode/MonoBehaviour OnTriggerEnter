@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnTriggerEnter
+# key: OnTriggerEnter(Collider)
+# --
+private void OnTriggerEnter(Collider other) {
+    $0
+}

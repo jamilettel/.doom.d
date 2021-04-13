@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour Reset
+# key: Reset()
+# --
+private void Reset() {
+    $0
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: StateMachineBehaviour OnStateMove
+# key: OnStateMove()
+# --
+private void OnStateMove(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex) {
+    $0
+}

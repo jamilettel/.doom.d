@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnCollisionEnter
+# key: OnCollisionEnter(Collision)
+# --
+private void OnCollisionEnter(Collision other) {
+    $0
+}

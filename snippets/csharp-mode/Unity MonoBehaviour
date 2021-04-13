@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Unity MonoBehaviour
+# key: MonoBehaviour
+# --
+using UnityEngine;
+
+public class `(file-name-base (buffer-file-name))` : MonoBehaviour {
+    $0
+}

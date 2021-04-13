@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnFailedToConnectToMasterServer
+# key: OnFailedToConnectToMasterServer(NetworkConnectionError)
+# --
+private void OnFailedToConnectToMasterServer(NetworkConnectionError error) {
+    $0
+}

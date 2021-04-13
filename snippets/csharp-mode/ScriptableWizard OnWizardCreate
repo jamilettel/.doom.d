@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ScriptableWizard OnWizardCreate
+# key: OnWizardCreate()
+# --
+private void OnWizardCreate() {
+    $0
+}

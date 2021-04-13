@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour FixedUpdate
+# key: FixedUpdate()
+# --
+private void FixedUpdate() {
+    $0
+}

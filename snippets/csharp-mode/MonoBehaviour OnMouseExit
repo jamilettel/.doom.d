@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnMouseExit
+# key: OnMouseExit()
+# --
+private void OnMouseExit() {
+    $0
+}

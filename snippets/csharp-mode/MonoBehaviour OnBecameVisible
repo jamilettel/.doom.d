@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnBecameVisible
+# key: OnBecameVisible()
+# --
+private void OnBecameVisible() {
+    $0
+}

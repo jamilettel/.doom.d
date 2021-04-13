@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: StateMachineBehaviour OnStateExit
+# key: OnStateExit()
+# --
+private void OnStateExit(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex) {
+    $0
+}

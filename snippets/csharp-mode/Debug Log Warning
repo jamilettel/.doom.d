@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Debug Log Warning
+# key: LogWarning
+# --
+Debug.LogWarning($0);

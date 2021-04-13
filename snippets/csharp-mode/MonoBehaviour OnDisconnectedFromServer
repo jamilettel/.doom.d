@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnDisconnectedFromServer
+# key: OnDisconnectedFromServer(NetworkDisconnection)
+# --
+private void OnDisconnectedFromServer(NetworkDisconnection info) {
+    $0
+}

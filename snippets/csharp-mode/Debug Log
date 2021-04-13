@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Debug Log
+# key: Log
+# --
+Debug.Log($0);

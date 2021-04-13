@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnPlayerDisconnected
+# key: OnPlayerDisconnected(NetworkPlayer)
+# --
+private void OnPlayerDisconnected(NetworkPlayer player) {
+    $0
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnWillRenderObject
+# key: OnWillRenderObject()
+# --
+private void OnWillRenderObject() {
+    $0
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Unity StateMachineBehaviour
+# key: StateMachineBehaviour
+# --
+using UnityEngine;
+
+public class `(file-name-base (buffer-file-name))` : StateMachineBehaviour {
+    public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
+        $0
+    }
+}

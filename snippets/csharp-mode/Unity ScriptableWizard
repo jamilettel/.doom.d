@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: Unity ScriptableWizard
+# key: ScriptableWizard
+# --
+using UnityEngine;
+using UnityEditor;
+
+public class `(file-name-base (buffer-file-name))`: ScriptableWizard {
+
+    [MenuItem("${1:${TM_FILEPATH/.*\\(.*)\\Assets\\.*/${1}/}/${TM_FILENAME_BASE/(.*)Wizard/${1}/}}")]
+    private static void MenuEntryCall() {
+        DisplayWizard<${TM_FILENAME_BASE}>("${2:Title}");
+    }
+
+    private void OnWizardCreate() {
+        $0
+    }
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnMouseEnter
+# key: OnMouseEnter()
+# --
+private void OnMouseEnter() {
+    $0
+}

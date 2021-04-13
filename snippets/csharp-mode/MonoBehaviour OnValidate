@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnValidate
+# key: OnValidate()
+# --
+private void OnValidate() {
+    $0
+}

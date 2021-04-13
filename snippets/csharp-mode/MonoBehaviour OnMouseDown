@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnMouseDown
+# key: OnMouseDown()
+# --
+private void OnMouseDown() {
+    $0
+}

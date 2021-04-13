@@ -80,13 +80,6 @@
 
 (load! "epitech/std_comment.el")
 
-(require 'vterm)
-(define-key vterm-mode-map (kbd "<C-backspace>")
-    (lambda () (interactive) (vterm-send-key (kbd "C-w"))))
-
-(add-hook! 'vterm-mode-hook (local-set-key (kbd "C-<left>") 'vterm-send-M-b))
-(add-hook! 'vterm-mode-hook (local-set-key (kbd "C-<right>") 'vterm-send-M-f))
-
 (defun split-and-follow-horizontally ()
   (interactive)
   (split-window-below)
@@ -139,3 +132,6 @@
 (setq lsp-ui-doc-use-childframe nil)
 (treemacs-follow-mode 1)
 (setq undo-fu-allow-undo-in-region 1)
+
+(add-hook! 'lsp-csharp-after-open-hook (lsp-lens-show))
+(setq lsp-ui-sideline-show-code-actions nil)

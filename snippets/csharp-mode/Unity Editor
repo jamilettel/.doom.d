@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: Unity Editor
+# key: Editor
+# --
+using UnityEngine;
+using UnityEditor;
+
+[CustomEditor(typeof(${1:${TM_FILENAME_BASE/(.*)Editor/${1}/}}))]
+public class `(file-name-base (buffer-file-name))` : Editor {
+    public override void OnInspectorGUI() {
+        base.OnInspectorGUI();
+        $0
+    }
+}

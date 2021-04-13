@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Unity NetworkBehaviour
+# key: NetworkBehaviour
+# --
+using UnityEngine;
+using UnityEngine.Networking;
+
+public class `(file-name-base (buffer-file-name))` : NetworkBehaviour {
+    $0
+}

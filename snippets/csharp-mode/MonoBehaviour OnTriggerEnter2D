@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnTriggerEnter2D
+# key: OnTriggerEnter2D(Collider2D)
+# --
+private void OnTriggerEnter2D(Collider2D other) {
+    $0
+}

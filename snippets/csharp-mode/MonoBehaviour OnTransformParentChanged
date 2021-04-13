@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnTransformParentChanged
+# key: OnTransformParentChanged()
+# --
+private void OnTransformParentChanged() {
+    $0
+}

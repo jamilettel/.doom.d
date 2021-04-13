@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Debug LogFormat
+# key: LogFormat
+# --
+Debug.LogFormat($0);

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnMouseUpAsButton
+# key: OnMouseUpAsButton()
+# --
+private void OnMouseUpAsButton() {
+    $0
+}

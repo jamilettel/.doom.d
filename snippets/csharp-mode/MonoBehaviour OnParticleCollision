@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnParticleCollision
+# key: OnParticleCollision(GameObject)
+# --
+private void OnParticleCollision(GameObject other) {
+    $0
+}

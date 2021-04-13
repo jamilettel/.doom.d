@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnAnimatorMove
+# key: OnAnimatorMove()
+# --
+private void OnAnimatorMove() {
+    $0
+}

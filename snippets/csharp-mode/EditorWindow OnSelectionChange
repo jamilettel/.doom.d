@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EditorWindow OnSelectionChange
+# key: OnSelectionChange()
+# --
+private void OnSelectionChange() {
+    $0
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnTriggerExit
+# key: OnTriggerExit(Collider)
+# --
+private void OnTriggerExit(Collider other) {
+    $0
+}

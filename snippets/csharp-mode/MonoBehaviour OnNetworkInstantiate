@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnNetworkInstantiate
+# key: OnNetworkInstantiate(NetworkMessageInfo)
+# --
+private void OnNetworkInstantiate(NetworkMessageInfo info) {
+    $0
+}

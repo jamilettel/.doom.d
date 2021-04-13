@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnAudioFilterRead
+# key: OnAudioFilterRead(float[], int)
+# --
+private void OnAudioFilterRead(float[] data, int channels) {
+    $0
+}

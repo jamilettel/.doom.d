@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: StateMachineBehaviour OnStateIK
+# key: OnStateIK()
+# --
+private void OnStateIK(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex) {
+    $0
+}

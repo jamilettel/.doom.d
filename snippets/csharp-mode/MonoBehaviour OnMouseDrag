@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnMouseDrag
+# key: OnMouseDrag()
+# --
+private void OnMouseDrag() {
+    $0
+}

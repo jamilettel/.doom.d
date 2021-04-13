@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnTriggerStay
+# key: OnTriggerStay(Collider)
+# --
+private void OnTriggerStay(Collider other) {
+    $0
+}

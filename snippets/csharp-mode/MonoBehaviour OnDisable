@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnDisable
+# key: OnDisable()
+# --
+private void OnDisable() {
+    $0
+}

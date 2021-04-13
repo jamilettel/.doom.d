@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnJointBreak2D
+# key: OnJointBreak2D(Joint2D)
+# --
+private void OnJointBreak2D(Joint2D brokenJoint) {
+    $0
+}

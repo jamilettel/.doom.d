@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: Unity EditorWindow
+# key: EditorWindow
+# --
+using UnityEngine;
+using UnityEditor;
+
+public class `(file-name-base (buffer-file-name))` : EditorWindow {
+
+    [MenuItem("${1:${TM_FILEPATH/.*\\(.*)\\Assets\\.*/${1}/}/${TM_FILENAME_BASE/(.*)Editor/${1}/}}")]
+    private static void ShowWindow() {
+        var window = GetWindow<${TM_FILENAME_BASE}>();
+        window.titleContent = new GUIContent("${2:${TM_FILENAME_BASE/(.*)Editor/${1}/}}");
+        window.Show();
+    }
+
+    private void OnGUI() {
+        $0
+    }
+}

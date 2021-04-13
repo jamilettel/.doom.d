@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: StateMachineBehaviour OnStateEnter
+# key: OnStateEnter()
+# --
+private void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex) {
+    $0
+}

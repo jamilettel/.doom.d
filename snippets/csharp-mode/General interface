@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: General interface
+# key: interface
+# --
+public interface `(file-name-base (buffer-file-name))` {
+    $0
+}

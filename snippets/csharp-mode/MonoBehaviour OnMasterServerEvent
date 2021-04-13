@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnMasterServerEvent
+# key: OnMasterServerEvent(MasterServerEvent)
+# --
+private void OnMasterServerEvent(MasterServerEvent msEvent) {
+    $0
+}

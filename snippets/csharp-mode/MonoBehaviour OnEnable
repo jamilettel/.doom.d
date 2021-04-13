@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnEnable
+# key: OnEnable()
+# --
+private void OnEnable() {
+    $0
+}

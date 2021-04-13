@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EditorWindow OnProjectChange
+# key: OnProjectChange()
+# --
+private void OnProjectChange() {
+    $0
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnDestroy
+# key: OnDestroy()
+# --
+private void OnDestroy() {
+    $0
+}

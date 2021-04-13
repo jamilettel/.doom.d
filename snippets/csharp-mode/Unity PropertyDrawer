@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Unity PropertyDrawer
+# key: PropertyDrawer
+# --
+using UnityEngine;
+using UnityEditor;
+
+[CustomPropertyDrawer(typeof(${1:${TM_FILENAME_BASE/(.*)Drawer/${1}/}}))]
+public class `(file-name-base (buffer-file-name))`: PropertyDrawer {
+    public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) {
+        $0
+    }
+}

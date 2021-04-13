@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnApplicationFocus
+# key: OnApplicationFocus(bool)
+# --
+private void OnApplicationFocus(bool focusStatus) {
+    $0
+}

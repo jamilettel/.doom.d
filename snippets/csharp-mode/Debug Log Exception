@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Debug Log Exception
+# key: LogException
+# --
+Debug.LogException($0);

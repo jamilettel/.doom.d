@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnApplicationPause
+# key: OnApplicationPause(bool)
+# --
+private void OnApplicationPause(bool pauseStatus) {
+    $0
+}

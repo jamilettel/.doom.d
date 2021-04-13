@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EditorWindow OnHierarchyChange
+# key: OnHierarchyChange()
+# --
+private void OnHierarchyChange() {
+    $0
+}

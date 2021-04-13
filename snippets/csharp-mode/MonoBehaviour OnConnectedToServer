@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnConnectedToServer
+# key: OnConnectedToServer()
+# --
+private void OnConnectedToServer() {
+    $0
+}

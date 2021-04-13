@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnParticleTrigger
+# key: OnParticleTrigger()
+# --
+private void OnParticleTrigger() {
+    $0
+}

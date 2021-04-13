@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnServerInitialized
+# key: OnServerInitialized()
+# --
+private void OnServerInitialized() {
+    $0
+}

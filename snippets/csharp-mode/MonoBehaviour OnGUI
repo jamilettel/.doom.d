@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnGUI
+# key: OnGUI()
+# --
+private void OnGUI() {
+    $0
+}

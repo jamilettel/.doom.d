@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour Start
+# key: Start()
+# --
+private void Start() {
+    $0
+}

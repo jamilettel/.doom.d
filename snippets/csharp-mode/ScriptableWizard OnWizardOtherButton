@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ScriptableWizard OnWizardOtherButton
+# key: OnWizardOtherButton()
+# --
+private void OnWizardOtherButton() {
+    $0
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour Awake
+# key: Awake()
+# --
+private void Awake() {
+    $0
+}

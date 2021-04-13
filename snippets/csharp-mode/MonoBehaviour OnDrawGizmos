@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnDrawGizmos
+# key: OnDrawGizmos()
+# --
+private void OnDrawGizmos() {
+    $0
+}

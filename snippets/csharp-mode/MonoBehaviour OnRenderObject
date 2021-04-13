@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnRenderObject
+# key: OnRenderObject()
+# --
+private void OnRenderObject() {
+    $0
+}

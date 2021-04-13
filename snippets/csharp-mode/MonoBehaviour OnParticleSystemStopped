@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnParticleSystemStopped
+# key: OnParticleSystemStopped()
+# --
+private void OnParticleSystemStopped() {
+    $0
+}

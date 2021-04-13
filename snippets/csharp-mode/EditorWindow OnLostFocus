@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EditorWindow OnLostFocus
+# key: OnLostFocus()
+# --
+private void OnLostFocus() {
+    $0
+}

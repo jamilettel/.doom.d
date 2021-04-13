@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour OnSerializeNetworkView
+# key: OnSerializeNetworkView(BitStream, NetworkMessageInfo)
+# --
+private void OnSerializeNetworkView(BitStream stream, NetworkMessageInfo info) {
+    $0
+}

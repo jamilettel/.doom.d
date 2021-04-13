@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EditorWindow OnFocus
+# key: OnFocus()
+# --
+private void OnFocus() {
+    $0
+}

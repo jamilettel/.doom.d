@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour LateUpdate
+# key: LateUpdate()
+# --
+private void LateUpdate() {
+    $0
+}

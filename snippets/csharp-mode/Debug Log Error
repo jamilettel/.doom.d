@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Debug Log Error
+# key: LogError
+# --
+Debug.LogError($0);

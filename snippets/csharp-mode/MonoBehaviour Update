@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MonoBehaviour Update
+# key: Update()
+# --
+private void Update() {
+    $0
+}
